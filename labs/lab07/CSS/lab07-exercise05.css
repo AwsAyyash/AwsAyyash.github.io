@@ -1,0 +1,12 @@
+body {
+  font-size: 1.1em;
+}
+
+figure {
+  border: 1pt solid #a8a8a8;
+  background-color: #ededdd;
+  padding: 5px;
+  margin: 10px;
+  width: 150px;
+  float: right;
+}

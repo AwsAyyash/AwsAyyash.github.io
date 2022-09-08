@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+/* general text formatting */
+
+h1,
+h2,
+h3,
+nav,
+footer {
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+footer,
+header {
+    background-color: gray;
+}
+
+nav ul {
+    list-style: none;
+}
+
+legend {
+    padding: 0.5em;
+    background-color: #616161;
+    color: white;
+    width: 95%;
+    text-align: center;
+}
+
+fieldset {
+    margin: 1em auto;
+    background-color: #F5F5F5;
+}
+
+div#searchBox,
+div#settingsBox,
+div#paintingBox {
+    width: 96%;
+    margin: 0.25em auto;
+    padding: 1em;
+    background-color: #E0E0E0;
+    border: 1pt solid #616161;
+}
+
+div#searchBox {
+    margin-top: 1em;
+}
+
+div#artistBox {
+    background-color: #EEEEEE;
+}
+
+div#paintingBox {
+    background-color: rgb(230, 230, 230);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table thead {
+    background-color: #E0E0E0;
+}
+
+
+/*
+thead{
+   
+   padding: 0.5em;
+   width: 95%;
+   
+   background-color: #BDBDBD;
+}*/
+
+caption {
+    background-color: gray;
+    padding: 0.5em;
+}
+
+.input {
+    border-radius: 0.2em;
+    align-items: center;
+    align-content: center;
+}
+
+button.input {
+    border-radius: 0.3em;
+    font-size: 8px;
+    margin: 0;
+    position: absolute;
+    margin-top: 0.6em;
+}
+
+td {
+    padding-right: 2em;
+}
+
+th {
+    text-align: left;
+    padding-right: 2em;
+}
+
+tr {
+    border-bottom: 1pt solid rgb(112, 112, 112);
+}
+
+#last-row {
+    border-bottom: none;
+}
+
+#table-heading {
+    background-color: gray;
+}

@@ -1,0 +1,20 @@
+.column-multi {
+    display: flex;
+}
+
+main {
+    padding: 0.5em;
+    /* margin-left: 13em;*/
+}
+
+main.main-lab7-task {
+    margin-left: 13em;
+}
+
+.nav-main {
+    align-content: center;
+}
+
+.selected {
+    background-color: brown;
+}

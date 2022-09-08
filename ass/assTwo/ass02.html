@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="./../../CSS/assTwoCSS/ass02.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Assignments home page</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form method="get" action="http://www.randyconnolly.com/tests/process.php">
+            <fieldset>
+                <legend>Advanced Art Work Search</legend>
+
+                <div id="searchBox">
+
+                    <input type="text" name="search" placeholder="Search titles" class="input">
+                    <label>Subject:</label>
+                    <input type="radio" name="subject" value="1" checked="checked">History
+                    <input type="radio" name="subject" value="2">Person
+                    <input type="radio" name="subject" value="3">Landscape
+
+
+                    <select name="filter" class="input">
+            <option >Select Genre</option>
+
+            <option value="0">Baroque</option>
+            <option value="1">Renaissance</option>
+            <option value="2">Realism</option>
+            
+          </select>
+                    <button type="submit" class="input">Filter</button>
+                </div>
+
+                <div id="settingsBox">
+
+                    <select name="actions" class="input">
+            <option >Bulk Actions</option>
+
+            <option value="0">Archive</option>
+            <option value="1">Edit</option>
+            <option value="2">Delete</option>
+            <option value="3">Collection</option>
+
+            
+          </select>
+                    <button type="submit" class="input">Apply To All</button>
+
+                </div>
+
+                <div id="paintingBox">
+
+                    <table>
+                        <caption>Pantings</caption>
+
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th>Title</th>
+                                <th>Artist</th>
+                                <th>Year</th>
+                                <th>Genre</th>
+                                <th>Actions</th>
+
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td><input type="checkbox" name="index[]" value="1"></td>
+                                <td><img src="../../images/imagesAssTwo/05030.jpg"></td>
+                                <td>Death of Marat</td>
+                                <td>David, Jacques-Louis</td>
+                                <td>1793</td>
+                                <td>Romanticism</td>
+                                <td>
+                                    <button type="image"><img src="../../images/imagesAssTwo/archive.png"></button>
+                                    <button type="image"><img src="../../images/imagesAssTwo/edit.png"></button>
+                                    <button type="image"><img src="../../images/imagesAssTwo/delete.png"></button>
+                                    <button type="image"><img src="../../images/imagesAssTwo/collection.png"></button>
+
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox" name="index[]" value="2"></td>
+                                <td><img src="../../images/imagesAssTwo/120010.jpg"></td>
+                                <td>Portrait of Eleanor of Toledo</td>
+                                <td>Bronzino, Agnolo</td>
+                                <td>1545</td>
+                                <td>Mannerism</td>
+                                <td>
+                                    <button type="image"><img src="../../images/imagesAssTwo/archive.png"></button>
+                                    <button type="image"><img src="../../images/imagesAssTwo/edit.png"></button>
+                                    <button type="image"><img src="../../images/imagesAssTwo/delete.png"></button>
+                                    <button type="image"><img src="../../images/imagesAssTwo/collection.png"></button>
+
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox" name="index[]" value="3"></td>
+                                <td><img src="../../images/imagesAssTwo/07020.jpg"></td>
+                                <td>Liberty Leading the People</td>
+                                <td>Delacroix, Eugene</td>
+                                <td>1830</td>
+                                <td>Romanticism</td>
+                                <td>
+                                    <button type="image"><img src="../../images/imagesAssTwo/archive.png"></button>
+                                    <button type="image"><img src="../../images/imagesAssTwo/edit.png"></button>
+                                    <button type="image"><img src="../../images/imagesAssTwo/delete.png"></button>
+                                    <button type="image"><img src="../../images/imagesAssTwo/collection.png"></button>
+
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox" name="index[]" value="4"></td>
+                                <td><img src="../../images/imagesAssTwo/13030.jpg"></td>
+                                <td>Arrangement in Grey and Black</td>
+                                <td>Whistler, James Abbott</td>
+                                <td>1871</td>
+                                <td>Realism</td>
+                                <td>
+                                    <button type="image"><img src="../../images/imagesAssTwo/archive.png"></button>
+                                    <button type="image"><img src="../../images/imagesAssTwo/edit.png"></button>
+                                    <button type="image"><img src="../../images/imagesAssTwo/delete.png"></button>
+                                    <button type="image"><img src="../../images/imagesAssTwo/collection.png"></button>
+
+
+                                </td>
+
+                            </tr>
+                            <tr id="last-row">
+                                <td><input type="checkbox" name="index[]" value="5"></td>
+                                <td><img src="../../images/imagesAssTwo/06010.jpg"></td>
+                                <td>Mademoiselle Caroline Riviere</td>
+                                <td>Ingres, Jean-Auguste</td>
+                                <td>1806</td>
+                                <td>Neo-Classicism</td>
+                                <td>
+                                    <button type="image"><img src="../../images/imagesAssTwo/archive.png"></button>
+                                    <button type="image"><img src="../../images/imagesAssTwo/edit.png"></button>
+                                    <button type="image"><img src="../../images/imagesAssTwo/delete.png"></button>
+                                    <button type="image"><img src="../../images/imagesAssTwo/collection.png"></button>
+
+
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+                </div>
+
+            </fieldset>
+        </form>
+    </main>
+
+
+    <footer>
+        <em>&copy; 2021 <a href="https://www.linkedin.com/in/aws-ayyash/" target="">Aws Ayyash</a>. All rights reserved</em>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,461 @@
+body {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 60px;
+    right: 0px;
+    overflow: hidden;
+}
+
+a#company_name {
+    color: white;
+    background-color: rgb(61, 61, 126);
+}
+
+a#company_name:hover {
+    background-color: black;
+}
+
+
+/*to make the written in the center near the logo */
+
+.inside_main_nav {
+    position: absolute;
+    top: 1.2em;
+    left: 6em;
+}
+
+header>nav>ul {
+    position: relative;
+    top: 0.9em;
+}
+
+footer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    bottom: 0px;
+    height: 30px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    margin-left: 0.5em;
+}
+
+main {
+    font-family: Georgia, Cochin, 'Times New Roman', serif, Times;
+    padding-left: 1%;
+    background-color: rgb(233, 235, 235);
+    position: absolute;
+    top: 70px;
+    bottom: 32px;
+    left: 0.1em;
+    right: 0.1em;
+    overflow: auto;
+}
+
+nav>ul {
+    list-style: none;
+    margin: 0.1em;
+    padding: 0.2em;
+    display: inline;
+}
+
+nav li {
+    display: inline;
+}
+
+.multi_column {
+    display: flex;
+    background-color: rgba(207, 197, 197, 0);
+}
+
+.col {
+    flex: 1;
+}
+
+
+/* this is for any img inside 'a' (Clickable)*/
+
+a>img:hover {
+    border: 2pt sloid red;
+}
+
+
+/**/
+
+a {
+    text-decoration: underline;
+}
+
+
+/*
+this is for the links in the nav parts
+*/
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: rgb(7, 1, 1);
+}
+
+nav a:visited {
+    color: rgb(7, 1, 1);
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/*-----------------------------------------------------------*/
+
+a:link {
+    font-weight: bold;
+    color: rgba(71, 71, 221, 0.637);
+}
+
+a:visited {
+    color: rgb(7, 1, 1);
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/*external links(outside my website)*/
+
+a.outside_mywebsite:link {
+    color: rgba(197, 125, 191, 0.637);
+}
+
+a.outside_mywebsite:visited {
+    color: rgba(139, 185, 112, 0.637);
+}
+
+a.outside_mywebsite:hover {
+    background-color: rgb(202, 35, 35);
+    color: white;
+}
+
+
+/* used in the seacrh php file as demo*/
+
+a.active {
+    background-color: darkblue;
+    color: white;
+}
+
+
+/*for search flats: the result table:*/
+
+table thead {
+    background-color: #a19696;
+}
+
+table>caption {
+    background-color: gray;
+    padding: 0.5em;
+}
+
+tbody tr:nth-child(odd) {
+    background: rgb(255, 255, 255)
+}
+
+tbody tr:nth-child(even) {
+    background: rgb(208, 229, 253)
+}
+
+tbody tr:hover {
+    background: rgb(237, 250, 162)
+}
+
+.input {
+    border-radius: 0.2em;
+    align-items: center;
+    align-content: center;
+}
+
+input[type="number"] {
+    width: 13em;
+}
+
+td {
+    padding-right: 2em;
+}
+
+th {
+    text-align: left;
+    padding-right: 2em;
+}
+
+tr {
+    border-bottom: 1pt solid rgb(112, 112, 112);
+}
+
+div#searchBox {
+    margin: 0.1em;
+}
+
+
+/*
+
+for house details page:
+
+*/
+
+.multi_column_det {
+    display: flex;
+}
+
+
+/*=details*/
+
+.det {
+    margin-left: auto;
+    margin-right: 1em;
+    margin-top: 2em;
+}
+
+.extra_features {
+    background-color: rgb(241, 155, 123);
+    border-radius: 1%;
+    margin-top: 0.5em;
+}
+
+form {
+    margin: 1em;
+}
+
+fieldset>legend {
+    font-weight: bolder;
+}
+
+ul.flat_det em {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+
+/*
+from lab#7: exer#8
+*/
+
+figure {
+    border: 1pt solid #262626;
+    background-color: #c1c1c1;
+    padding: 5px;
+    width: 45%;
+    height: 35%;
+    margin: 10px;
+    float: left;
+}
+
+.first_image {
+    clear: left;
+}
+
+figure img {
+    width: 100%;
+    height: 92%;
+}
+
+nav.aside_nav li {
+    display: block;
+}
+
+
+/*
+
+for register
+*/
+
+.form_line {
+    margin-top: 0.5em;
+}
+
+.address_row {
+    margin-left: 1em;
+}
+
+.warning {
+    color: red;
+}
+
+
+/*
+
+login
+*/
+
+.login {
+    background-color: rgb(187, 161, 127);
+    align-items: center;
+    width: 50%;
+    height: 8.5em;
+    margin: auto;
+    border-radius: 1em;
+}
+
+.login_form {
+    margin: auto;
+    width: 99%;
+}
+
+em {
+    font-style: normal;
+    font-family: monospace;
+}
+
+.welcome {
+    color: crimson;
+}
+
+#preview_button {
+    margin-left: 14.5%;
+    margin-top: 1em;
+}
+
+
+/*this is in preview time table*/
+
+form table tr.taken_slot {
+    background-color: rgb(226, 141, 141);
+}
+
+
+/*msgs all*/
+
+.not_viewd_msg {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+table a:link {
+    color: rgb(7, 1, 1);
+}
+
+table a:visited {
+    color: rgb(7, 1, 1);
+}
+
+table a:hover {
+    background-color: black;
+    color: white;
+}
+
+table>caption {
+    font-weight: bolder;
+    color: aliceblue;
+    background-color: rgb(103, 104, 105);
+}
+
+#msg_title {
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: #bdbdbd
+}
+
+
+/*/*----------------------------------------------*/
+
+#msg_table {
+    margin-top: 1em;
+    margin-left: 0em;
+}
+
+table#msg_table>tr.msg_tbl {
+    background-color: rgb(192, 184, 184);
+}
+
+#msg_title {
+    padding: 1em;
+    text-align: center;
+}
+
+input:required {
+    content: " required ";
+    background-color: rgb(243, 188, 188);
+}
+
+input[type='text']:focus {
+    background-color: rgb(230, 230, 44);
+}
+
+table thead th {
+    text-align: center;
+}
+
+form label {
+    border: red 1pt solid;
+    margin: 0.2em;
+}
+
+table {
+    border: rgb(7, 129, 14) 2pt solid;
+    width: 100%;
+}
+
+input[type="submit"],
+button[type="submit"] {
+    margin-top: 0.5em;
+    margin-left: 0.1em;
+}
+
+
+/* error page*/
+
+.error {
+    background-color: red;
+    color: white;
+    align-content: center;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+}
+
+label.warning {
+    border: 1pt solid #262626;
+}
+
+a.flat_id_link:visited {
+    color: rgb(248, 8, 8);
+}
+
+a.flat_id_link:link {
+    color: rgb(50, 140, 143);
+}
+
+a.flat_id_link:hover {
+    background-color: rgb(15, 2, 2);
+    color: rgb(252, 246, 246);
+}
+
+ul {
+    list-style-image: url('../images/door.png');
+}
+
+ul>ul {
+    list-style-image: url('../images/ul2.png');
+}
+
+
+/*as Reqiered in the proj file*/
+
+ol {
+    list-style-type: arabic-indic;
+}
+
+ol>ol {
+    list-style-type: lower-alpha;
+}
